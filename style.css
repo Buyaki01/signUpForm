@@ -1,12 +1,136 @@
-.form {
-  border: 30px red solid;
+body{
+  background-color: #eceef1;
 }
-.button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 16px 32px;
+
+h3{
+  font-size: .8rem;
+}
+h2,h3,h4{
+  font-weight: normal;
+}
+a{
   text-decoration: none;
-  margin: 4px 2px;
+  color: #0077c5;
+}
+h6{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+input{
+  font-size: 1rem;
+  width: 23.5rem;
+  padding: .5rem;
+  outline: none;
+  box-sizing: border-box;
+}
+input:hover{
+  border: none;
+  border-bottom: 1px solid #0077c5 ;
+  
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+}
+footer a{
+  color: grey;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer h4{
+  padding-top: 0px;
+  font-style: normal;
+  display: flex;
+  width: 60%;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signin i{
+  font-size: 1.4rem;
+}
+.account h3{
+  font-size: 1rem;
+  line-height: 1px;
+}
+
+.element{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.members{
+  line-height: .2rem;
+}
+.section-content{
+  width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.header-content{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
+}
+.account{
+  width: 30%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #5d5f61;
+  color: #5d5f61;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 30px;
+}
+.signin{
+  display: flex;
+  background: #0077c5;
+  color: white;
+  width: 100px;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: baseline;
+  border: 1px solid black;
+  height: 2.3rem;
+  margin-left: .8rem;
   cursor: pointer;
+}
+.title{
+  margin: 1rem 0rem 1rem 0rem
+}
+form .signin{
+  border: none;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 80%;
+}
+
+h4{
+  padding-top: 20px;
+  font-size: .8rem;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+.text{
+  padding-left: .5rem;
+  font-size: .9rem;
+}
+#last{
+  font-style: normal;
 }
